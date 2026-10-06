@@ -68,24 +68,29 @@ flutter run
 
 ## Project Structure
 
-
-lib/
-└── main.dart
-
-screenshots/
-├── 1_login_page.png
-├── 2.png
-├── 3.png
-├── 4.png
-├── 5.png
-├── 6.png
-├── 7.png
-├── 8_registration_page.png
-├── 9.png
-├── 10.png
-├── 11.png
-├── 12.png
-└── 13.png
+```text
+flutter-login-registration-page/
+├── android/
+├── ios/
+├── lib/
+│   └── main.dart
+├── screenshots/
+│   ├── 1_login_page.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 5.png
+│   ├── 6.png
+│   ├── 7.png
+│   ├── 8_registration_page.png
+│   ├── 9.png
+│   ├── 10.png
+│   ├── 11.png
+│   ├── 12.png
+│   └── 13.png
+├── test/
+├── pubspec.yaml
+└── README.md
 
 
 
